@@ -46,8 +46,8 @@ class HomeVC: UIViewController {
             AppContentData(productImage: "푸딩", name: "UMU 커스터드 푸딩", dong: "애월읍", update: "4", price: "6,000원", heart: "1"),
             AppContentData(productImage: "춘식이", name: "춘식이 인형", dong: "묵동", update: "5", price: "20,000원", heart: "0")
         ])
-    
     }
+    
 }
 
 
@@ -57,6 +57,19 @@ extension HomeVC: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 145
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        guard let postVC = self.storyboard?.instantiateViewController(withIdentifier: "PostVC") else {return}
+        
+        self.navigationController?.pushViewController(postVC, animated: true)
+        
+
+//        let object = self.appContentList[indexPath] // appContentList에 접근해 indexPath로 객체 만듦
+//        let postVC = PostVC.init(coder: object)
+        //        self.navigationController?.pushViewController(postVC, animated: true)
+
     }
 }
 

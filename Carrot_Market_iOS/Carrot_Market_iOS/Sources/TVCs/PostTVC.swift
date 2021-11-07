@@ -30,6 +30,8 @@ class PostTVC: UITableViewCell {
 
     }
     
+    // MARK: - IBAction Part
+    
     // MARK: - Custom Method Part
     func setData(productData: AppContentData) {
         // IBOutlets으로 선언했던 변수들에 데이터를 넣어주는 부분

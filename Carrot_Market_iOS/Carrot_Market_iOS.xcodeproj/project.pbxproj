@@ -18,6 +18,9 @@
 		F6EC19882737BDB7006F295A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19872737BDB7006F295A /* ChatVC.swift */; };
 		F6EC198A2737BDC6006F295A /* MyCarrotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19892737BDC6006F295A /* MyCarrotVC.swift */; };
 		F6EC198C2737BE8B006F295A /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC198B2737BE8B006F295A /* TabbarController.swift */; };
+		F6EC19A92737F07F006F295A /* PostTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19A72737F07F006F295A /* PostTVC.swift */; };
+		F6EC19AA2737F07F006F295A /* PostTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6EC19A82737F07F006F295A /* PostTVC.xib */; };
+		F6EC19AE2737F4FB006F295A /* AppContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19AD2737F4FB006F295A /* AppContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		F6EC19872737BDB7006F295A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		F6EC19892737BDC6006F295A /* MyCarrotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotVC.swift; sourceTree = "<group>"; };
 		F6EC198B2737BE8B006F295A /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		F6EC19A72737F07F006F295A /* PostTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTVC.swift; sourceTree = "<group>"; };
+		F6EC19A82737F07F006F295A /* PostTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTVC.xib; sourceTree = "<group>"; };
+		F6EC19AD2737F4FB006F295A /* AppContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 		F6EC19792737B07E006F295A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F6EC19AC2737F4D0006F295A /* DataModels */,
 				F6EC197A2737B0FC006F295A /* Application */,
 				F6EC197B2737B105006F295A /* VCs */,
 				F6EC197C2737B23B006F295A /* CVCs */,
@@ -126,6 +133,7 @@
 		F6EC197D2737B24D006F295A /* TVCs */ = {
 			isa = PBXGroup;
 			children = (
+				F6EC19A72737F07F006F295A /* PostTVC.swift */,
 				F6EC198B2737BE8B006F295A /* TabbarController.swift */,
 			);
 			path = TVCs;
@@ -150,8 +158,17 @@
 		F6EC19802737B2AE006F295A /* TVCs */ = {
 			isa = PBXGroup;
 			children = (
+				F6EC19A82737F07F006F295A /* PostTVC.xib */,
 			);
 			path = TVCs;
+			sourceTree = "<group>";
+		};
+		F6EC19AC2737F4D0006F295A /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				F6EC19AD2737F4FB006F295A /* AppContent.swift */,
+			);
+			path = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +232,7 @@
 				F66D8613273550B000B81159 /* LaunchScreen.storyboard in Resources */,
 				F66D8610273550B000B81159 /* Assets.xcassets in Resources */,
 				F66D860E273550AE00B81159 /* Main.storyboard in Resources */,
+				F6EC19AA2737F07F006F295A /* PostTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,11 +244,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6EC19882737BDB7006F295A /* ChatVC.swift in Sources */,
+				F6EC19A92737F07F006F295A /* PostTVC.swift in Sources */,
 				F6EC198C2737BE8B006F295A /* TabbarController.swift in Sources */,
 				F6EC19822737BD84006F295A /* HomeVC.swift in Sources */,
 				F66D8607273550AE00B81159 /* AppDelegate.swift in Sources */,
 				F6EC19842737BD9F006F295A /* LifeVC.swift in Sources */,
 				F6EC198A2737BDC6006F295A /* MyCarrotVC.swift in Sources */,
+				F6EC19AE2737F4FB006F295A /* AppContent.swift in Sources */,
 				F66D8609273550AE00B81159 /* SceneDelegate.swift in Sources */,
 				F6EC19862737BDA9006F295A /* AroundVC.swift in Sources */,
 			);

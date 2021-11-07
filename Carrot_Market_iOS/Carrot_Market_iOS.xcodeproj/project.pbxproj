@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		F66D8607273550AE00B81159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D8606273550AE00B81159 /* AppDelegate.swift */; };
 		F66D8609273550AE00B81159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D8608273550AE00B81159 /* SceneDelegate.swift */; };
-		F66D860B273550AE00B81159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D860A273550AE00B81159 /* ViewController.swift */; };
 		F66D860E273550AE00B81159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D860C273550AE00B81159 /* Main.storyboard */; };
 		F66D8610273550B000B81159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66D860F273550B000B81159 /* Assets.xcassets */; };
 		F66D8613273550B000B81159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D8611273550B000B81159 /* LaunchScreen.storyboard */; };
+		F6EC19822737BD84006F295A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19812737BD84006F295A /* HomeVC.swift */; };
+		F6EC19842737BD9F006F295A /* LifeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19832737BD9F006F295A /* LifeVC.swift */; };
+		F6EC19862737BDA9006F295A /* AroundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19852737BDA9006F295A /* AroundVC.swift */; };
+		F6EC19882737BDB7006F295A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19872737BDB7006F295A /* ChatVC.swift */; };
+		F6EC198A2737BDC6006F295A /* MyCarrotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19892737BDC6006F295A /* MyCarrotVC.swift */; };
+		F6EC198C2737BE8B006F295A /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC198B2737BE8B006F295A /* TabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F66D8603273550AE00B81159 /* Carrot_Market_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carrot_Market_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66D8606273550AE00B81159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66D8608273550AE00B81159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F66D860A273550AE00B81159 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F66D860D273550AE00B81159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F66D860F273550B000B81159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F66D8612273550B000B81159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F66D8614273550B000B81159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EC19812737BD84006F295A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F6EC19832737BD9F006F295A /* LifeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeVC.swift; sourceTree = "<group>"; };
+		F6EC19852737BDA9006F295A /* AroundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundVC.swift; sourceTree = "<group>"; };
+		F6EC19872737BDB7006F295A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		F6EC19892737BDC6006F295A /* MyCarrotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotVC.swift; sourceTree = "<group>"; };
+		F6EC198B2737BE8B006F295A /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,6 @@
 			children = (
 				F6EC19782737B062006F295A /* Resources */,
 				F6EC19792737B07E006F295A /* Sources */,
-				F66D860C273550AE00B81159 /* Main.storyboard */,
-				F66D8611273550B000B81159 /* LaunchScreen.storyboard */,
 				F66D8614273550B000B81159 /* Info.plist */,
 			);
 			path = Carrot_Market_iOS;
@@ -68,6 +76,8 @@
 		F6EC19782737B062006F295A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F66D860C273550AE00B81159 /* Main.storyboard */,
+				F66D8611273550B000B81159 /* LaunchScreen.storyboard */,
 				F66D860F273550B000B81159 /* Assets.xcassets */,
 				F6EC197E2737B29F006F295A /* Xibs */,
 			);
@@ -97,7 +107,11 @@
 		F6EC197B2737B105006F295A /* VCs */ = {
 			isa = PBXGroup;
 			children = (
-				F66D860A273550AE00B81159 /* ViewController.swift */,
+				F6EC19812737BD84006F295A /* HomeVC.swift */,
+				F6EC19832737BD9F006F295A /* LifeVC.swift */,
+				F6EC19852737BDA9006F295A /* AroundVC.swift */,
+				F6EC19872737BDB7006F295A /* ChatVC.swift */,
+				F6EC19892737BDC6006F295A /* MyCarrotVC.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -112,6 +126,7 @@
 		F6EC197D2737B24D006F295A /* TVCs */ = {
 			isa = PBXGroup;
 			children = (
+				F6EC198B2737BE8B006F295A /* TabbarController.swift */,
 			);
 			path = TVCs;
 			sourceTree = "<group>";
@@ -210,9 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F66D860B273550AE00B81159 /* ViewController.swift in Sources */,
+				F6EC19882737BDB7006F295A /* ChatVC.swift in Sources */,
+				F6EC198C2737BE8B006F295A /* TabbarController.swift in Sources */,
+				F6EC19822737BD84006F295A /* HomeVC.swift in Sources */,
 				F66D8607273550AE00B81159 /* AppDelegate.swift in Sources */,
+				F6EC19842737BD9F006F295A /* LifeVC.swift in Sources */,
+				F6EC198A2737BDC6006F295A /* MyCarrotVC.swift in Sources */,
 				F66D8609273550AE00B81159 /* SceneDelegate.swift in Sources */,
+				F6EC19862737BDA9006F295A /* AroundVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

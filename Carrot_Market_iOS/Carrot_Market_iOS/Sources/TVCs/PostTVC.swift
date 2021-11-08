@@ -24,13 +24,7 @@ class PostTVC: UITableViewCell {
         super.awakeFromNib()
 
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-    }
     
-    // MARK: - IBAction Part
     
     // MARK: - Custom Method Part
     func setData(productData: AppContentData) {
@@ -51,6 +45,7 @@ class PostTVC: UITableViewCell {
 // MARK: - Extension Part
 extension UIView {
     @IBInspectable var cornerRadius: CGFloat {
+        // @IBInspectable -> Inspector에서 해당 인터페이스 요소의 속성을 변경할 수 있게 함
         set {
             layer.cornerRadius = newValue
         }

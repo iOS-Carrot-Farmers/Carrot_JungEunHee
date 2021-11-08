@@ -56,19 +56,19 @@ extension HomeVC: UITableViewDelegate {
     // - 테이블 뷰의 동작과 모양 관리
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 145
+        
+        return UIScreen.main.bounds.width * (145/375)   // 화면 비율 고려
     }
+    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        guard let postVC = self.storyboard?.instantiateViewController(withIdentifier: "PostVC") else {return}
+        tableView.deselectRow(at: indexPath, animated: true)    // 셀 터치 시 회색표시 안 뜨게 해줌
         
-        self.navigationController?.pushViewController(postVC, animated: true)
+        guard let detailVC = self.storyboard?.instantiateViewController(withIdentifier: "DetailVC") else {return}
         
-
-//        let object = self.appContentList[indexPath] // appContentList에 접근해 indexPath로 객체 만듦
-//        let postVC = PostVC.init(coder: object)
-        //        self.navigationController?.pushViewController(postVC, animated: true)
+        self.navigationController?.pushViewController(detailVC, animated: true)
+        
 
     }
 }

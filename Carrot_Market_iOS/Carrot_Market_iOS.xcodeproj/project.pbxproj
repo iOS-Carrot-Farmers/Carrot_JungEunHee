@@ -12,6 +12,7 @@
 		F66D860E273550AE00B81159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D860C273550AE00B81159 /* Main.storyboard */; };
 		F66D8610273550B000B81159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66D860F273550B000B81159 /* Assets.xcassets */; };
 		F66D8613273550B000B81159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D8611273550B000B81159 /* LaunchScreen.storyboard */; };
+		F6A202CE2739099800A855E0 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A202CD2739099800A855E0 /* DetailVC.swift */; };
 		F6EC19822737BD84006F295A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19812737BD84006F295A /* HomeVC.swift */; };
 		F6EC19842737BD9F006F295A /* LifeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19832737BD9F006F295A /* LifeVC.swift */; };
 		F6EC19862737BDA9006F295A /* AroundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19852737BDA9006F295A /* AroundVC.swift */; };
@@ -21,7 +22,6 @@
 		F6EC19A92737F07F006F295A /* PostTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19A72737F07F006F295A /* PostTVC.swift */; };
 		F6EC19AA2737F07F006F295A /* PostTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6EC19A82737F07F006F295A /* PostTVC.xib */; };
 		F6EC19AE2737F4FB006F295A /* AppContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19AD2737F4FB006F295A /* AppContent.swift */; };
-		F6EC19B027381BB8006F295A /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19AF27381BB8006F295A /* PostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +32,7 @@
 		F66D860F273550B000B81159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F66D8612273550B000B81159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F66D8614273550B000B81159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A202CD2739099800A855E0 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		F6EC19812737BD84006F295A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F6EC19832737BD9F006F295A /* LifeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeVC.swift; sourceTree = "<group>"; };
 		F6EC19852737BDA9006F295A /* AroundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundVC.swift; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		F6EC19A72737F07F006F295A /* PostTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTVC.swift; sourceTree = "<group>"; };
 		F6EC19A82737F07F006F295A /* PostTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTVC.xib; sourceTree = "<group>"; };
 		F6EC19AD2737F4FB006F295A /* AppContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContent.swift; sourceTree = "<group>"; };
-		F6EC19AF27381BB8006F295A /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 				F6EC19852737BDA9006F295A /* AroundVC.swift */,
 				F6EC19872737BDB7006F295A /* ChatVC.swift */,
 				F6EC19892737BDC6006F295A /* MyCarrotVC.swift */,
-				F6EC19AF27381BB8006F295A /* PostVC.swift */,
+				F6A202CD2739099800A855E0 /* DetailVC.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -248,6 +248,7 @@
 			files = (
 				F6EC19882737BDB7006F295A /* ChatVC.swift in Sources */,
 				F6EC19A92737F07F006F295A /* PostTVC.swift in Sources */,
+				F6A202CE2739099800A855E0 /* DetailVC.swift in Sources */,
 				F6EC198C2737BE8B006F295A /* TabbarController.swift in Sources */,
 				F6EC19822737BD84006F295A /* HomeVC.swift in Sources */,
 				F66D8607273550AE00B81159 /* AppDelegate.swift in Sources */,
@@ -256,7 +257,6 @@
 				F6EC19AE2737F4FB006F295A /* AppContent.swift in Sources */,
 				F66D8609273550AE00B81159 /* SceneDelegate.swift in Sources */,
 				F6EC19862737BDA9006F295A /* AroundVC.swift in Sources */,
-				F6EC19B027381BB8006F295A /* PostVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -75,7 +75,7 @@
             </objects>
             <point key="canvasLocation" x="3823.1999999999998" y="1095.8128078817736"/>
         </scene>
-        <!--HomeVC-->
+        <!--Item-->
         <scene sceneID="jT7-uH-oS3">
             <objects>
                 <viewController storyboardIdentifier="HomeVC" id="Mrz-6b-ITW" customClass="HomeVC" customModule="Carrot_Market_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -156,6 +156,7 @@
                             <constraint firstItem="XO4-yD-Zw8" firstAttribute="leading" secondItem="qjT-56-Gci" secondAttribute="leading" id="y1u-ho-86E"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="C7A-xX-m1W"/>
                     <navigationItem key="navigationItem" id="fu7-0x-WyZ"/>
                     <connections>
                         <outlet property="postTableView" destination="XO4-yD-Zw8" id="MWg-Sc-Qz3"/>
@@ -164,22 +165,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XN5-p2-FaU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="832.79999999999995" y="1096.5517241379312"/>
-        </scene>
-        <!--DetailVC-->
-        <scene sceneID="aio-pu-qma">
-            <objects>
-                <viewController storyboardIdentifier="DetailVC" id="aue-eu-XVU" customClass="DetailVC" customModule="Carrot_Market_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9Z4-UG-qKy">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="AFl-pT-kgt"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="W2h-BY-RFM"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DzN-Or-fN2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="833" y="1807"/>
         </scene>
         <!--Tabbar Controller-->
         <scene sceneID="UiH-le-wnl">
@@ -192,35 +177,16 @@
                         <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="g18-vf-TEY" kind="relationship" relationship="viewControllers" id="IMe-iJ-dak"/>
                         <segue destination="fyf-uK-csU" kind="relationship" relationship="viewControllers" id="d0z-Io-Y8X"/>
                         <segue destination="Fcu-i6-I4R" kind="relationship" relationship="viewControllers" id="i6p-bw-toc"/>
                         <segue destination="is7-rk-3gV" kind="relationship" relationship="viewControllers" id="u7W-SP-MPy"/>
                         <segue destination="lEe-Ox-nef" kind="relationship" relationship="viewControllers" id="OzX-JH-Soe"/>
+                        <segue destination="Mrz-6b-ITW" kind="relationship" relationship="viewControllers" id="P0D-eD-vAM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Zs-bk-LB5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1386" y="107"/>
-        </scene>
-        <!--홈-->
-        <scene sceneID="mJi-HY-Lqy">
-            <objects>
-                <navigationController storyboardIdentifier="HomeNavagationController" automaticallyAdjustsScrollViewInsets="NO" id="g18-vf-TEY" customClass="HomeNavagationController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="홈" image="homeIcon" selectedImage="homeIconFill" id="zT0-gZ-1vx"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FIf-h6-hHO">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Mrz-6b-ITW" kind="relationship" relationship="rootViewController" id="1oj-Bl-i8L"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mp7-xA-WyJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-109.59999999999999" y="1096.5517241379312"/>
         </scene>
     </scenes>
     <resources>
@@ -228,8 +194,6 @@
         <image name="alarmIcon" width="30" height="30"/>
         <image name="chatIcon" width="32" height="32"/>
         <image name="chatIconFill" width="32" height="32"/>
-        <image name="homeIcon" width="32" height="32"/>
-        <image name="homeIconFill" width="32" height="32"/>
         <image name="locationIcon" width="18" height="18"/>
         <image name="menuIcon" width="30" height="30"/>
         <image name="myAroundIcon" width="32" height="32"/>

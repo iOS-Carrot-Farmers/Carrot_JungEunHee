@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47AAD28605ACAA7D83AF826B /* Pods_Carrot_Market_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F019ADA29CE961F49B443BE /* Pods_Carrot_Market_iOS.framework */; };
 		F66D8607273550AE00B81159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D8606273550AE00B81159 /* AppDelegate.swift */; };
 		F66D8609273550AE00B81159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D8608273550AE00B81159 /* SceneDelegate.swift */; };
 		F66D860E273550AE00B81159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D860C273550AE00B81159 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 		F6A202D9273935FF00A855E0 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6A202D5273935FF00A855E0 /* SF-Pro-Display-Semibold.otf */; };
 		F6A202DA273935FF00A855E0 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6A202D6273935FF00A855E0 /* SF-Pro-Display-Regular.otf */; };
 		F6A202DB273935FF00A855E0 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6A202D7273935FF00A855E0 /* SF-Pro-Display-Medium.otf */; };
+		F6A202E127395D9D00A855E0 /* DetailSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A202E027395D9D00A855E0 /* DetailSB.storyboard */; };
 		F6EC19822737BD84006F295A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19812737BD84006F295A /* HomeVC.swift */; };
 		F6EC19842737BD9F006F295A /* LifeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19832737BD9F006F295A /* LifeVC.swift */; };
 		F6EC19862737BDA9006F295A /* AroundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19852737BDA9006F295A /* AroundVC.swift */; };
@@ -29,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E5527C4827B702A025F0028 /* Pods-Carrot_Market_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrot_Market_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5616D8EFB69A9C5BDB5973DE /* Pods-Carrot_Market_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrot_Market_iOS.release.xcconfig"; path = "Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		6F019ADA29CE961F49B443BE /* Pods_Carrot_Market_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carrot_Market_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66D8603273550AE00B81159 /* Carrot_Market_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carrot_Market_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66D8606273550AE00B81159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66D8608273550AE00B81159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +46,8 @@
 		F6A202D5273935FF00A855E0 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Semibold.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
 		F6A202D6273935FF00A855E0 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		F6A202D7273935FF00A855E0 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Medium.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
-		F6EC19812737BD84006F295A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F6A202E027395D9D00A855E0 /* DetailSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailSB.storyboard; sourceTree = "<group>"; };
+		F6EC19812737BD84006F295A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		F6EC19832737BD9F006F295A /* LifeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeVC.swift; sourceTree = "<group>"; };
 		F6EC19852737BDA9006F295A /* AroundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundVC.swift; sourceTree = "<group>"; };
 		F6EC19872737BDB7006F295A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
@@ -57,17 +63,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47AAD28605ACAA7D83AF826B /* Pods_Carrot_Market_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F03E8AD285C4C9DEC4B1751 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F019ADA29CE961F49B443BE /* Pods_Carrot_Market_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AEC9CE18C55E38B1FE7F447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E5527C4827B702A025F0028 /* Pods-Carrot_Market_iOS.debug.xcconfig */,
+				5616D8EFB69A9C5BDB5973DE /* Pods-Carrot_Market_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F66D85FA273550AE00B81159 = {
 			isa = PBXGroup;
 			children = (
 				F66D8605273550AE00B81159 /* Carrot_Market_iOS */,
 				F66D8604273550AE00B81159 /* Products */,
+				9AEC9CE18C55E38B1FE7F447 /* Pods */,
+				4F03E8AD285C4C9DEC4B1751 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +133,7 @@
 				F6A202D3273935EE00A855E0 /* Font */,
 				F66D860C273550AE00B81159 /* Main.storyboard */,
 				F66D8611273550B000B81159 /* LaunchScreen.storyboard */,
+				F6A202E027395D9D00A855E0 /* DetailSB.storyboard */,
 				F66D860F273550B000B81159 /* Assets.xcassets */,
 				F6EC197E2737B29F006F295A /* Xibs */,
 			);
@@ -201,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F66D8617273550B000B81159 /* Build configuration list for PBXNativeTarget "Carrot_Market_iOS" */;
 			buildPhases = (
+				1A0B42E36FFCC0BEE3C44BAA /* [CP] Check Pods Manifest.lock */,
 				F66D85FF273550AE00B81159 /* Sources */,
 				F66D8600273550AE00B81159 /* Frameworks */,
 				F66D8601273550AE00B81159 /* Resources */,
+				9E2A4CB04C71827F22C862BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,10 +290,53 @@
 				F66D860E273550AE00B81159 /* Main.storyboard in Resources */,
 				F6A202DA273935FF00A855E0 /* SF-Pro-Display-Regular.otf in Resources */,
 				F6EC19AA2737F07F006F295A /* PostTVC.xib in Resources */,
+				F6A202E127395D9D00A855E0 /* DetailSB.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A0B42E36FFCC0BEE3C44BAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Carrot_Market_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2A4CB04C71827F22C862BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F66D85FF273550AE00B81159 /* Sources */ = {
@@ -424,6 +497,7 @@
 		};
 		F66D8618273550B000B81159 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5527C4827B702A025F0028 /* Pods-Carrot_Market_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +526,7 @@
 		};
 		F66D8619273550B000B81159 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5616D8EFB69A9C5BDB5973DE /* Pods-Carrot_Market_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -7,6 +7,8 @@
 
 import UIKit
 
+import JJFloatingActionButton
+
 class HomeVC: UIViewController {
 
     // MARK: - UI Component Part
@@ -22,6 +24,8 @@ class HomeVC: UIViewController {
         initAppContentList()
         setTableView()
         registerXib()
+        
+        setFloatingBtn()
     }
     
     // MARK: - Custom Method Part
@@ -29,6 +33,17 @@ class HomeVC: UIViewController {
         postTableView.dataSource = self
         postTableView.delegate = self
     }
+    
+    private func setFloatingBtn() {
+        let actionButton = JJFloatingActionButton()
+        actionButton.buttonColor = UIColor(red: 238/255, green: 133/255, blue: 72/255, alpha: 1)
+        
+        postTableView.addSubview(actionButton)
+        actionButton.translatesAutoresizingMaskIntoConstraints = false
+        actionButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16).isActive = true
+        actionButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -16).isActive = true
+    }
+    
     
     func registerXib() {
         // xib 등록
@@ -65,11 +80,12 @@ extension HomeVC: UITableViewDelegate {
         
         tableView.deselectRow(at: indexPath, animated: true)    // 셀 터치 시 회색표시 안 뜨게 해줌
         
-        guard let detailVC = self.storyboard?.instantiateViewController(withIdentifier: "DetailVC") else {return}
+        guard let detailVC = UIStoryboard(name: "DetailSB", bundle: nil).instantiateViewController(withIdentifier: "DetailVC") as? DetailVC else { return }
         
-        self.navigationController?.pushViewController(detailVC, animated: true)
-        
+        detailVC.modalPresentationStyle = .fullScreen
+        detailVC.modalTransitionStyle = .crossDissolve
 
+        self.present(detailVC, animated: true, completion: nil)
     }
 }
 

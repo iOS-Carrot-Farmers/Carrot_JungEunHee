@@ -7,233 +7,217 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47AAD28605ACAA7D83AF826B /* Pods_Carrot_Market_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F019ADA29CE961F49B443BE /* Pods_Carrot_Market_iOS.framework */; };
-		F66D8607273550AE00B81159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D8606273550AE00B81159 /* AppDelegate.swift */; };
-		F66D8609273550AE00B81159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D8608273550AE00B81159 /* SceneDelegate.swift */; };
-		F66D860E273550AE00B81159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D860C273550AE00B81159 /* Main.storyboard */; };
-		F66D8610273550B000B81159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66D860F273550B000B81159 /* Assets.xcassets */; };
-		F66D8613273550B000B81159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D8611273550B000B81159 /* LaunchScreen.storyboard */; };
-		F6A202CE2739099800A855E0 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A202CD2739099800A855E0 /* DetailVC.swift */; };
-		F6A202D8273935FF00A855E0 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6A202D4273935FF00A855E0 /* SF-Pro-Display-Bold.otf */; };
-		F6A202D9273935FF00A855E0 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6A202D5273935FF00A855E0 /* SF-Pro-Display-Semibold.otf */; };
-		F6A202DA273935FF00A855E0 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6A202D6273935FF00A855E0 /* SF-Pro-Display-Regular.otf */; };
-		F6A202DB273935FF00A855E0 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6A202D7273935FF00A855E0 /* SF-Pro-Display-Medium.otf */; };
-		F6A202E127395D9D00A855E0 /* DetailSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A202E027395D9D00A855E0 /* DetailSB.storyboard */; };
-		F6EC19822737BD84006F295A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19812737BD84006F295A /* HomeVC.swift */; };
-		F6EC19842737BD9F006F295A /* LifeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19832737BD9F006F295A /* LifeVC.swift */; };
-		F6EC19862737BDA9006F295A /* AroundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19852737BDA9006F295A /* AroundVC.swift */; };
-		F6EC19882737BDB7006F295A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19872737BDB7006F295A /* ChatVC.swift */; };
-		F6EC198A2737BDC6006F295A /* MyCarrotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19892737BDC6006F295A /* MyCarrotVC.swift */; };
-		F6EC198C2737BE8B006F295A /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC198B2737BE8B006F295A /* TabbarController.swift */; };
-		F6EC19A92737F07F006F295A /* PostTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19A72737F07F006F295A /* PostTVC.swift */; };
-		F6EC19AA2737F07F006F295A /* PostTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6EC19A82737F07F006F295A /* PostTVC.xib */; };
-		F6EC19AE2737F4FB006F295A /* AppContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC19AD2737F4FB006F295A /* AppContent.swift */; };
+		5848BC0EBB20B33B06051048 /* Pods_Carrot_Market_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83BC0D66B319D813AED7C22 /* Pods_Carrot_Market_iOS.framework */; };
+		F6B40D50273C7F1700FAFE24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D4F273C7F1700FAFE24 /* AppDelegate.swift */; };
+		F6B40D52273C7F1700FAFE24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D51273C7F1700FAFE24 /* SceneDelegate.swift */; };
+		F6B40D57273C7F1700FAFE24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B40D55273C7F1700FAFE24 /* Main.storyboard */; };
+		F6B40D59273C7F1900FAFE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B40D58273C7F1900FAFE24 /* Assets.xcassets */; };
+		F6B40D5C273C7F1900FAFE24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B40D5A273C7F1900FAFE24 /* LaunchScreen.storyboard */; };
+		F6B40D72273C805300FAFE24 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6B40D6E273C805200FAFE24 /* SF-Pro-Display-Semibold.otf */; };
+		F6B40D73273C805300FAFE24 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6B40D6F273C805300FAFE24 /* SF-Pro-Display-Regular.otf */; };
+		F6B40D74273C805300FAFE24 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6B40D70273C805300FAFE24 /* SF-Pro-Display-Bold.otf */; };
+		F6B40D75273C805300FAFE24 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6B40D71273C805300FAFE24 /* SF-Pro-Display-Medium.otf */; };
+		F6B40D77273C845100FAFE24 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D76273C845100FAFE24 /* TabbarController.swift */; };
+		F6B40D79273C848400FAFE24 /* HomeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D78273C848400FAFE24 /* HomeContent.swift */; };
+		F6B40D82273C857900FAFE24 /* PostTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D80273C857800FAFE24 /* PostTVC.swift */; };
+		F6B40D83273C857900FAFE24 /* PostTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6B40D81273C857900FAFE24 /* PostTVC.xib */; };
+		F6B40D87273C896600FAFE24 /* LifeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D86273C896600FAFE24 /* LifeVC.swift */; };
+		F6B40D89273C896E00FAFE24 /* AroundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D88273C896E00FAFE24 /* AroundVC.swift */; };
+		F6B40D8B273C897700FAFE24 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D8A273C897700FAFE24 /* ChatVC.swift */; };
+		F6B40D8D273C898200FAFE24 /* MyCarrotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D8C273C898200FAFE24 /* MyCarrotVC.swift */; };
+		F6B40D8E273C8D4E00FAFE24 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D84273C895C00FAFE24 /* HomeVC.swift */; };
+		F6B40D90273C8EAD00FAFE24 /* DetailSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B40D8F273C8EAD00FAFE24 /* DetailSB.storyboard */; };
+		F6B40D92273C8EC200FAFE24 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B40D91273C8EC200FAFE24 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E5527C4827B702A025F0028 /* Pods-Carrot_Market_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrot_Market_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		5616D8EFB69A9C5BDB5973DE /* Pods-Carrot_Market_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrot_Market_iOS.release.xcconfig"; path = "Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		6F019ADA29CE961F49B443BE /* Pods_Carrot_Market_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carrot_Market_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F66D8603273550AE00B81159 /* Carrot_Market_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carrot_Market_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F66D8606273550AE00B81159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F66D8608273550AE00B81159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F66D860D273550AE00B81159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F66D860F273550B000B81159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F66D8612273550B000B81159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F66D8614273550B000B81159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6A202CD2739099800A855E0 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
-		F6A202D4273935FF00A855E0 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Bold.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
-		F6A202D5273935FF00A855E0 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Semibold.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
-		F6A202D6273935FF00A855E0 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
-		F6A202D7273935FF00A855E0 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Medium.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
-		F6A202E027395D9D00A855E0 /* DetailSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailSB.storyboard; sourceTree = "<group>"; };
-		F6EC19812737BD84006F295A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; wrapsLines = 0; };
-		F6EC19832737BD9F006F295A /* LifeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeVC.swift; sourceTree = "<group>"; };
-		F6EC19852737BDA9006F295A /* AroundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundVC.swift; sourceTree = "<group>"; };
-		F6EC19872737BDB7006F295A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
-		F6EC19892737BDC6006F295A /* MyCarrotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotVC.swift; sourceTree = "<group>"; };
-		F6EC198B2737BE8B006F295A /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
-		F6EC19A72737F07F006F295A /* PostTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTVC.swift; sourceTree = "<group>"; };
-		F6EC19A82737F07F006F295A /* PostTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTVC.xib; sourceTree = "<group>"; };
-		F6EC19AD2737F4FB006F295A /* AppContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContent.swift; sourceTree = "<group>"; };
+		61594922E5286C216C1E5BA6 /* Pods-Carrot_Market_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrot_Market_iOS.release.xcconfig"; path = "Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B83BC0D66B319D813AED7C22 /* Pods_Carrot_Market_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carrot_Market_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED72A2ECF52E22AC3EBAAB4B /* Pods-Carrot_Market_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrot_Market_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B40D4C273C7F1700FAFE24 /* Carrot_Market_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carrot_Market_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B40D4F273C7F1700FAFE24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6B40D51273C7F1700FAFE24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6B40D56273C7F1700FAFE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6B40D58273C7F1900FAFE24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6B40D5B273C7F1900FAFE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6B40D5D273C7F1900FAFE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B40D6E273C805200FAFE24 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Semibold.otf"; path = "../../../../../../Downloads/KimSuYeon-main/29th-Assignment/29th-Assignment-Youtube/29th-Assignment-Youtube/Fonts/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		F6B40D6F273C805300FAFE24 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../../../Downloads/KimSuYeon-main/29th-Assignment/29th-Assignment-Youtube/29th-Assignment-Youtube/Fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		F6B40D70273C805300FAFE24 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Bold.otf"; path = "../../../../../../Downloads/KimSuYeon-main/29th-Assignment/29th-Assignment-Youtube/29th-Assignment-Youtube/Fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		F6B40D71273C805300FAFE24 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Medium.otf"; path = "../../../../../../Downloads/KimSuYeon-main/29th-Assignment/29th-Assignment-Youtube/29th-Assignment-Youtube/Fonts/SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		F6B40D76273C845100FAFE24 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		F6B40D78273C848400FAFE24 /* HomeContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContent.swift; sourceTree = "<group>"; };
+		F6B40D80273C857800FAFE24 /* PostTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTVC.swift; sourceTree = "<group>"; };
+		F6B40D81273C857900FAFE24 /* PostTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTVC.xib; sourceTree = "<group>"; };
+		F6B40D84273C895C00FAFE24 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F6B40D86273C896600FAFE24 /* LifeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeVC.swift; sourceTree = "<group>"; };
+		F6B40D88273C896E00FAFE24 /* AroundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundVC.swift; sourceTree = "<group>"; };
+		F6B40D8A273C897700FAFE24 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		F6B40D8C273C898200FAFE24 /* MyCarrotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotVC.swift; sourceTree = "<group>"; };
+		F6B40D8F273C8EAD00FAFE24 /* DetailSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailSB.storyboard; sourceTree = "<group>"; };
+		F6B40D91273C8EC200FAFE24 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F66D8600273550AE00B81159 /* Frameworks */ = {
+		F6B40D49273C7F1700FAFE24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47AAD28605ACAA7D83AF826B /* Pods_Carrot_Market_iOS.framework in Frameworks */,
+				5848BC0EBB20B33B06051048 /* Pods_Carrot_Market_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F03E8AD285C4C9DEC4B1751 /* Frameworks */ = {
+		00A00B4F0352CD93943303A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6F019ADA29CE961F49B443BE /* Pods_Carrot_Market_iOS.framework */,
+				B83BC0D66B319D813AED7C22 /* Pods_Carrot_Market_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9AEC9CE18C55E38B1FE7F447 /* Pods */ = {
+		DCFC40A1F6CE8B6BAFD1BFE0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E5527C4827B702A025F0028 /* Pods-Carrot_Market_iOS.debug.xcconfig */,
-				5616D8EFB69A9C5BDB5973DE /* Pods-Carrot_Market_iOS.release.xcconfig */,
+				ED72A2ECF52E22AC3EBAAB4B /* Pods-Carrot_Market_iOS.debug.xcconfig */,
+				61594922E5286C216C1E5BA6 /* Pods-Carrot_Market_iOS.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		F66D85FA273550AE00B81159 = {
+		F6B40D43273C7F1700FAFE24 = {
 			isa = PBXGroup;
 			children = (
-				F66D8605273550AE00B81159 /* Carrot_Market_iOS */,
-				F66D8604273550AE00B81159 /* Products */,
-				9AEC9CE18C55E38B1FE7F447 /* Pods */,
-				4F03E8AD285C4C9DEC4B1751 /* Frameworks */,
+				F6B40D4E273C7F1700FAFE24 /* Carrot_Market_iOS */,
+				F6B40D4D273C7F1700FAFE24 /* Products */,
+				DCFC40A1F6CE8B6BAFD1BFE0 /* Pods */,
+				00A00B4F0352CD93943303A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F66D8604273550AE00B81159 /* Products */ = {
+		F6B40D4D273C7F1700FAFE24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F66D8603273550AE00B81159 /* Carrot_Market_iOS.app */,
+				F6B40D4C273C7F1700FAFE24 /* Carrot_Market_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F66D8605273550AE00B81159 /* Carrot_Market_iOS */ = {
+		F6B40D4E273C7F1700FAFE24 /* Carrot_Market_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F6EC19782737B062006F295A /* Resources */,
-				F6EC19792737B07E006F295A /* Sources */,
-				F66D8614273550B000B81159 /* Info.plist */,
+				F6B40D63273C7F2800FAFE24 /* Resources */,
+				F6B40D58273C7F1900FAFE24 /* Assets.xcassets */,
+				F6B40D67273C7F5000FAFE24 /* Sources */,
+				F6B40D5D273C7F1900FAFE24 /* Info.plist */,
 			);
 			path = Carrot_Market_iOS;
 			sourceTree = "<group>";
 		};
-		F6A202D3273935EE00A855E0 /* Font */ = {
+		F6B40D63273C7F2800FAFE24 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F6A202D4273935FF00A855E0 /* SF-Pro-Display-Bold.otf */,
-				F6A202D7273935FF00A855E0 /* SF-Pro-Display-Medium.otf */,
-				F6A202D6273935FF00A855E0 /* SF-Pro-Display-Regular.otf */,
-				F6A202D5273935FF00A855E0 /* SF-Pro-Display-Semibold.otf */,
-			);
-			path = Font;
-			sourceTree = "<group>";
-		};
-		F6EC19782737B062006F295A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F6A202D3273935EE00A855E0 /* Font */,
-				F66D860C273550AE00B81159 /* Main.storyboard */,
-				F66D8611273550B000B81159 /* LaunchScreen.storyboard */,
-				F6A202E027395D9D00A855E0 /* DetailSB.storyboard */,
-				F66D860F273550B000B81159 /* Assets.xcassets */,
-				F6EC197E2737B29F006F295A /* Xibs */,
+				F6B40D6D273C7FC700FAFE24 /* Font */,
+				F6B40D64273C7F3100FAFE24 /* Xibs */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		F6EC19792737B07E006F295A /* Sources */ = {
+		F6B40D64273C7F3100FAFE24 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				F6EC19AC2737F4D0006F295A /* DataModels */,
-				F6EC197A2737B0FC006F295A /* Application */,
-				F6EC197B2737B105006F295A /* VCs */,
-				F6EC197C2737B23B006F295A /* CVCs */,
-				F6EC197D2737B24D006F295A /* TVCs */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		F6EC197A2737B0FC006F295A /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				F66D8606273550AE00B81159 /* AppDelegate.swift */,
-				F66D8608273550AE00B81159 /* SceneDelegate.swift */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
-		F6EC197B2737B105006F295A /* VCs */ = {
-			isa = PBXGroup;
-			children = (
-				F6EC19812737BD84006F295A /* HomeVC.swift */,
-				F6EC19832737BD9F006F295A /* LifeVC.swift */,
-				F6EC19852737BDA9006F295A /* AroundVC.swift */,
-				F6EC19872737BDB7006F295A /* ChatVC.swift */,
-				F6EC19892737BDC6006F295A /* MyCarrotVC.swift */,
-				F6A202CD2739099800A855E0 /* DetailVC.swift */,
-			);
-			path = VCs;
-			sourceTree = "<group>";
-		};
-		F6EC197C2737B23B006F295A /* CVCs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CVCs;
-			sourceTree = "<group>";
-		};
-		F6EC197D2737B24D006F295A /* TVCs */ = {
-			isa = PBXGroup;
-			children = (
-				F6EC19A72737F07F006F295A /* PostTVC.swift */,
-				F6EC198B2737BE8B006F295A /* TabbarController.swift */,
-			);
-			path = TVCs;
-			sourceTree = "<group>";
-		};
-		F6EC197E2737B29F006F295A /* Xibs */ = {
-			isa = PBXGroup;
-			children = (
-				F6EC197F2737B2A9006F295A /* CVCs */,
-				F6EC19802737B2AE006F295A /* TVCs */,
+				F6B40D55273C7F1700FAFE24 /* Main.storyboard */,
+				F6B40D5A273C7F1900FAFE24 /* LaunchScreen.storyboard */,
+				F6B40D8F273C8EAD00FAFE24 /* DetailSB.storyboard */,
+				F6B40D66273C7F4400FAFE24 /* TVCs */,
+				F6B40D65273C7F3E00FAFE24 /* CVCs */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
 		};
-		F6EC197F2737B2A9006F295A /* CVCs */ = {
+		F6B40D65273C7F3E00FAFE24 /* CVCs */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = CVCs;
 			sourceTree = "<group>";
 		};
-		F6EC19802737B2AE006F295A /* TVCs */ = {
+		F6B40D66273C7F4400FAFE24 /* TVCs */ = {
 			isa = PBXGroup;
 			children = (
-				F6EC19A82737F07F006F295A /* PostTVC.xib */,
+				F6B40D80273C857800FAFE24 /* PostTVC.swift */,
+				F6B40D81273C857900FAFE24 /* PostTVC.xib */,
 			);
 			path = TVCs;
 			sourceTree = "<group>";
 		};
-		F6EC19AC2737F4D0006F295A /* DataModels */ = {
+		F6B40D67273C7F5000FAFE24 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F6EC19AD2737F4FB006F295A /* AppContent.swift */,
+				F6B40D6C273C7F8300FAFE24 /* DataModels */,
+				F6B40D6B273C7F8100FAFE24 /* Application */,
+				F6B40D6A273C7F7500FAFE24 /* VCs */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F6B40D6A273C7F7500FAFE24 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				F6B40D76273C845100FAFE24 /* TabbarController.swift */,
+				F6B40D84273C895C00FAFE24 /* HomeVC.swift */,
+				F6B40D86273C896600FAFE24 /* LifeVC.swift */,
+				F6B40D88273C896E00FAFE24 /* AroundVC.swift */,
+				F6B40D8A273C897700FAFE24 /* ChatVC.swift */,
+				F6B40D8C273C898200FAFE24 /* MyCarrotVC.swift */,
+				F6B40D91273C8EC200FAFE24 /* DetailVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		F6B40D6B273C7F8100FAFE24 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F6B40D4F273C7F1700FAFE24 /* AppDelegate.swift */,
+				F6B40D51273C7F1700FAFE24 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F6B40D6C273C7F8300FAFE24 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				F6B40D78273C848400FAFE24 /* HomeContent.swift */,
 			);
 			path = DataModels;
+			sourceTree = "<group>";
+		};
+		F6B40D6D273C7FC700FAFE24 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F6B40D70273C805300FAFE24 /* SF-Pro-Display-Bold.otf */,
+				F6B40D71273C805300FAFE24 /* SF-Pro-Display-Medium.otf */,
+				F6B40D6F273C805300FAFE24 /* SF-Pro-Display-Regular.otf */,
+				F6B40D6E273C805200FAFE24 /* SF-Pro-Display-Semibold.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F66D8602273550AE00B81159 /* Carrot_Market_iOS */ = {
+		F6B40D4B273C7F1700FAFE24 /* Carrot_Market_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F66D8617273550B000B81159 /* Build configuration list for PBXNativeTarget "Carrot_Market_iOS" */;
+			buildConfigurationList = F6B40D60273C7F1900FAFE24 /* Build configuration list for PBXNativeTarget "Carrot_Market_iOS" */;
 			buildPhases = (
-				1A0B42E36FFCC0BEE3C44BAA /* [CP] Check Pods Manifest.lock */,
-				F66D85FF273550AE00B81159 /* Sources */,
-				F66D8600273550AE00B81159 /* Frameworks */,
-				F66D8601273550AE00B81159 /* Resources */,
-				9E2A4CB04C71827F22C862BB /* [CP] Embed Pods Frameworks */,
+				324C3D583F15A8C7B3284C69 /* [CP] Check Pods Manifest.lock */,
+				F6B40D48273C7F1700FAFE24 /* Sources */,
+				F6B40D49273C7F1700FAFE24 /* Frameworks */,
+				F6B40D4A273C7F1700FAFE24 /* Resources */,
+				04579E4AD48FC3E9BF17E425 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,25 +225,25 @@
 			);
 			name = Carrot_Market_iOS;
 			productName = Carrot_Market_iOS;
-			productReference = F66D8603273550AE00B81159 /* Carrot_Market_iOS.app */;
+			productReference = F6B40D4C273C7F1700FAFE24 /* Carrot_Market_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F66D85FB273550AE00B81159 /* Project object */ = {
+		F6B40D44273C7F1700FAFE24 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					F66D8602273550AE00B81159 = {
+					F6B40D4B273C7F1700FAFE24 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = F66D85FE273550AE00B81159 /* Build configuration list for PBXProject "Carrot_Market_iOS" */;
+			buildConfigurationList = F6B40D47273C7F1700FAFE24 /* Build configuration list for PBXProject "Carrot_Market_iOS" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,37 +251,54 @@
 				en,
 				Base,
 			);
-			mainGroup = F66D85FA273550AE00B81159;
-			productRefGroup = F66D8604273550AE00B81159 /* Products */;
+			mainGroup = F6B40D43273C7F1700FAFE24;
+			productRefGroup = F6B40D4D273C7F1700FAFE24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F66D8602273550AE00B81159 /* Carrot_Market_iOS */,
+				F6B40D4B273C7F1700FAFE24 /* Carrot_Market_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F66D8601273550AE00B81159 /* Resources */ = {
+		F6B40D4A273C7F1700FAFE24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6A202DB273935FF00A855E0 /* SF-Pro-Display-Medium.otf in Resources */,
-				F6A202D9273935FF00A855E0 /* SF-Pro-Display-Semibold.otf in Resources */,
-				F66D8613273550B000B81159 /* LaunchScreen.storyboard in Resources */,
-				F6A202D8273935FF00A855E0 /* SF-Pro-Display-Bold.otf in Resources */,
-				F66D8610273550B000B81159 /* Assets.xcassets in Resources */,
-				F66D860E273550AE00B81159 /* Main.storyboard in Resources */,
-				F6A202DA273935FF00A855E0 /* SF-Pro-Display-Regular.otf in Resources */,
-				F6EC19AA2737F07F006F295A /* PostTVC.xib in Resources */,
-				F6A202E127395D9D00A855E0 /* DetailSB.storyboard in Resources */,
+				F6B40D72273C805300FAFE24 /* SF-Pro-Display-Semibold.otf in Resources */,
+				F6B40D90273C8EAD00FAFE24 /* DetailSB.storyboard in Resources */,
+				F6B40D5C273C7F1900FAFE24 /* LaunchScreen.storyboard in Resources */,
+				F6B40D74273C805300FAFE24 /* SF-Pro-Display-Bold.otf in Resources */,
+				F6B40D59273C7F1900FAFE24 /* Assets.xcassets in Resources */,
+				F6B40D73273C805300FAFE24 /* SF-Pro-Display-Regular.otf in Resources */,
+				F6B40D57273C7F1700FAFE24 /* Main.storyboard in Resources */,
+				F6B40D75273C805300FAFE24 /* SF-Pro-Display-Medium.otf in Resources */,
+				F6B40D83273C857900FAFE24 /* PostTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A0B42E36FFCC0BEE3C44BAA /* [CP] Check Pods Manifest.lock */ = {
+		04579E4AD48FC3E9BF17E425 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		324C3D583F15A8C7B3284C69 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,59 +320,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9E2A4CB04C71827F22C862BB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carrot_Market_iOS/Pods-Carrot_Market_iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F66D85FF273550AE00B81159 /* Sources */ = {
+		F6B40D48273C7F1700FAFE24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6EC19882737BDB7006F295A /* ChatVC.swift in Sources */,
-				F6EC19A92737F07F006F295A /* PostTVC.swift in Sources */,
-				F6A202CE2739099800A855E0 /* DetailVC.swift in Sources */,
-				F6EC198C2737BE8B006F295A /* TabbarController.swift in Sources */,
-				F6EC19822737BD84006F295A /* HomeVC.swift in Sources */,
-				F66D8607273550AE00B81159 /* AppDelegate.swift in Sources */,
-				F6EC19842737BD9F006F295A /* LifeVC.swift in Sources */,
-				F6EC198A2737BDC6006F295A /* MyCarrotVC.swift in Sources */,
-				F6EC19AE2737F4FB006F295A /* AppContent.swift in Sources */,
-				F66D8609273550AE00B81159 /* SceneDelegate.swift in Sources */,
-				F6EC19862737BDA9006F295A /* AroundVC.swift in Sources */,
+				F6B40D8B273C897700FAFE24 /* ChatVC.swift in Sources */,
+				F6B40D8E273C8D4E00FAFE24 /* HomeVC.swift in Sources */,
+				F6B40D92273C8EC200FAFE24 /* DetailVC.swift in Sources */,
+				F6B40D79273C848400FAFE24 /* HomeContent.swift in Sources */,
+				F6B40D87273C896600FAFE24 /* LifeVC.swift in Sources */,
+				F6B40D50273C7F1700FAFE24 /* AppDelegate.swift in Sources */,
+				F6B40D89273C896E00FAFE24 /* AroundVC.swift in Sources */,
+				F6B40D77273C845100FAFE24 /* TabbarController.swift in Sources */,
+				F6B40D82273C857900FAFE24 /* PostTVC.swift in Sources */,
+				F6B40D52273C7F1700FAFE24 /* SceneDelegate.swift in Sources */,
+				F6B40D8D273C898200FAFE24 /* MyCarrotVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F66D860C273550AE00B81159 /* Main.storyboard */ = {
+		F6B40D55273C7F1700FAFE24 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F66D860D273550AE00B81159 /* Base */,
+				F6B40D56273C7F1700FAFE24 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F66D8611273550B000B81159 /* LaunchScreen.storyboard */ = {
+		F6B40D5A273C7F1900FAFE24 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F66D8612273550B000B81159 /* Base */,
+				F6B40D5B273C7F1900FAFE24 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -379,7 +363,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F66D8615273550B000B81159 /* Debug */ = {
+		F6B40D5E273C7F1900FAFE24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -440,7 +424,7 @@
 			};
 			name = Debug;
 		};
-		F66D8616273550B000B81159 /* Release */ = {
+		F6B40D5F273C7F1900FAFE24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -495,9 +479,9 @@
 			};
 			name = Release;
 		};
-		F66D8618273550B000B81159 /* Debug */ = {
+		F6B40D61273C7F1900FAFE24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E5527C4827B702A025F0028 /* Pods-Carrot_Market_iOS.debug.xcconfig */;
+			baseConfigurationReference = ED72A2ECF52E22AC3EBAAB4B /* Pods-Carrot_Market_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -524,9 +508,9 @@
 			};
 			name = Debug;
 		};
-		F66D8619273550B000B81159 /* Release */ = {
+		F6B40D62273C7F1900FAFE24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5616D8EFB69A9C5BDB5973DE /* Pods-Carrot_Market_iOS.release.xcconfig */;
+			baseConfigurationReference = 61594922E5286C216C1E5BA6 /* Pods-Carrot_Market_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -556,25 +540,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F66D85FE273550AE00B81159 /* Build configuration list for PBXProject "Carrot_Market_iOS" */ = {
+		F6B40D47273C7F1700FAFE24 /* Build configuration list for PBXProject "Carrot_Market_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F66D8615273550B000B81159 /* Debug */,
-				F66D8616273550B000B81159 /* Release */,
+				F6B40D5E273C7F1900FAFE24 /* Debug */,
+				F6B40D5F273C7F1900FAFE24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F66D8617273550B000B81159 /* Build configuration list for PBXNativeTarget "Carrot_Market_iOS" */ = {
+		F6B40D60273C7F1900FAFE24 /* Build configuration list for PBXNativeTarget "Carrot_Market_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F66D8618273550B000B81159 /* Debug */,
-				F66D8619273550B000B81159 /* Release */,
+				F6B40D61273C7F1900FAFE24 /* Debug */,
+				F6B40D62273C7F1900FAFE24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F66D85FB273550AE00B81159 /* Project object */;
+	rootObject = F6B40D44273C7F1700FAFE24 /* Project object */;
 }

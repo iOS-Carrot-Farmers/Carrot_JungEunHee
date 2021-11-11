@@ -2,11 +2,10 @@
 //  HomeVC.swift
 //  Carrot_Market_iOS
 //
-//  Created by 정은희 on 2021/11/07.
+//  Created by 정은희 on 2021/11/11.
 //
 
 import UIKit
-
 import JJFloatingActionButton
 
 class HomeVC: UIViewController {
@@ -15,7 +14,7 @@ class HomeVC: UIViewController {
     @IBOutlet weak var postTableView: UITableView!
     
     // MARK: - Vars & Lets Part
-    var appContentList: [AppContentData] = []
+    var homeContentList: [HomeContentData] = []
     
     // MARK: - Life Cycle Part
     override func viewDidLoad() {
@@ -37,7 +36,7 @@ class HomeVC: UIViewController {
     private func setFloatingBtn() {
         let actionButton = JJFloatingActionButton()
         actionButton.buttonColor = UIColor(red: 238/255, green: 133/255, blue: 72/255, alpha: 1)
-        
+
         postTableView.addSubview(actionButton)
         actionButton.translatesAutoresizingMaskIntoConstraints = false
         actionButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16).isActive = true
@@ -53,13 +52,13 @@ class HomeVC: UIViewController {
     func initAppContentList() {
         // 구조체에 데이터를 넣는 함수
         
-        appContentList.append(contentsOf: [
-            AppContentData(productImage: "당근프리뷰", name: "킹받이세요?", dong: "공릉동", update: "0", price: "1,107원", heart: "5"),
-            AppContentData(productImage: "킹받아요", name: "킹받아요 사진", dong: "성수동", update: "1", price: "211,014원", heart: "4"),
-            AppContentData(productImage: "포켓몬폰케", name: "포켓몬스터 친구들 슬림케이스", dong: "하계동", update: "2", price: "13,900원", heart: "3"),
-            AppContentData(productImage: "투썸케이크", name: "스트로베리 초콜릿 생크림", dong: "중계동", update: "3", price: "35,000원", heart: "2"),
-            AppContentData(productImage: "푸딩", name: "UMU 커스터드 푸딩", dong: "애월읍", update: "4", price: "6,000원", heart: "1"),
-            AppContentData(productImage: "춘식이", name: "춘식이 인형", dong: "묵동", update: "5", price: "20,000원", heart: "0")
+        homeContentList.append(contentsOf: [
+            HomeContentData(productImage: "당근프리뷰", name: "킹받이세요?", dong: "공릉동", update: "0", price: "1,107원", heart: "5"),
+            HomeContentData(productImage: "킹받아요", name: "킹받아요 사진", dong: "성수동", update: "1", price: "211,014원", heart: "4"),
+            HomeContentData(productImage: "포켓몬폰케", name: "포켓몬스터 친구들 슬림케이스", dong: "하계동", update: "2", price: "13,900원", heart: "3"),
+            HomeContentData(productImage: "투썸케이크", name: "스트로베리 초콜릿 생크림", dong: "중계동", update: "3", price: "35,000원", heart: "2"),
+            HomeContentData(productImage: "푸딩", name: "UMU 커스터드 푸딩", dong: "애월읍", update: "4", price: "6,000원", heart: "1"),
+            HomeContentData(productImage: "춘식이", name: "춘식이 인형", dong: "묵동", update: "5", price: "20,000원", heart: "0")
         ])
     }
     
@@ -93,7 +92,7 @@ extension HomeVC: UITableViewDataSource {
     // - 테이블을 만들 때 필요한 정보 제공
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return appContentList.count
+        return homeContentList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -101,7 +100,7 @@ extension HomeVC: UITableViewDataSource {
         
         guard let cell = tableView.dequeueReusableCell(withIdentifier: PostTVC.identifier) as? PostTVC else {return UITableViewCell()}
         
-        cell.setData(productData: appContentList[indexPath.row])
+        cell.setData(productData: homeContentList[indexPath.row])
         return cell
     }
     

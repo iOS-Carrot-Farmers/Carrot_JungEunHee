@@ -30,59 +30,84 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QbU-gA-xk7">
-                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <navigationItem title="상일동" id="O1g-tP-flT">
-                                        <rightBarButtonItems>
-                                            <barButtonItem style="plain" id="udL-QQ-01q">
-                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="bxk-2a-NpK">
-                                                    <rect key="frame" x="305" y="0.0" width="54" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="alarmIcon"/>
-                                                </button>
-                                            </barButtonItem>
-                                            <barButtonItem style="plain" id="L8k-mE-IoC">
-                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="nKo-ak-3hw">
-                                                    <rect key="frame" x="243" y="0.0" width="54" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="menuIcon" title=""/>
-                                                </button>
-                                            </barButtonItem>
-                                            <barButtonItem style="plain" id="Rgw-7q-TNX">
-                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="yhX-fV-K4S">
-                                                    <rect key="frame" x="181" y="0.0" width="54" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="_searchIcon"/>
-                                                </button>
-                                            </barButtonItem>
-                                            <barButtonItem style="plain" id="Pmj-tR-NZV">
-                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="f6s-o2-sNK">
-                                                    <rect key="frame" x="131" y="6" width="42" height="32"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="locationIcon"/>
-                                                </button>
-                                            </barButtonItem>
-                                        </rightBarButtonItems>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
+                            <view contentMode="scaleToFill" restorationIdentifier="CustomNavigationBar" translatesAutoresizingMaskIntoConstraints="NO" id="ons-Kh-QcP" userLabel="Custom NavigationBar" customClass="CustomNavigationBar" customModule="Carrot_Market_iOS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="40" width="375" height="48"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Kz-ch-dxR">
+                                        <rect key="frame" x="16" y="16" width="71" height="36"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="상일동">
+                                                    <attributes>
+                                                        <color key="NSColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                        <font key="NSFont" size="18" name="AppleSDGothicNeo-SemiBold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locationIcon" translatesAutoresizingMaskIntoConstraints="NO" id="KPy-8a-iq4">
+                                        <rect key="frame" x="87" y="25" width="18" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="KPy-8a-iq4" secondAttribute="height" multiplier="1:1" id="AKi-iO-4QE"/>
+                                            <constraint firstAttribute="width" constant="18" id="Zkg-JS-nec"/>
+                                            <constraint firstAttribute="height" constant="18" id="rr3-uf-lUt"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_searchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Gck-ZM-BDX">
+                                        <rect key="frame" x="267" y="16" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Gck-ZM-BDX" secondAttribute="height" multiplier="1:1" id="Dr2-gl-c5J"/>
+                                            <constraint firstAttribute="width" constant="30" id="aMk-lI-lLN"/>
+                                            <constraint firstAttribute="height" constant="30" id="b3T-mB-xm6"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuIcon" translatesAutoresizingMaskIntoConstraints="NO" id="WvF-go-ntc">
+                                        <rect key="frame" x="300" y="16" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="3DR-FJ-hY6"/>
+                                            <constraint firstAttribute="height" constant="30" id="5c7-yA-NAD"/>
+                                            <constraint firstAttribute="width" secondItem="WvF-go-ntc" secondAttribute="height" multiplier="1:1" id="EM3-a7-el1"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alarmIcon" translatesAutoresizingMaskIntoConstraints="NO" id="VEQ-Xg-ZAk">
+                                        <rect key="frame" x="333" y="14" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="VEQ-Xg-ZAk" secondAttribute="height" multiplier="1:1" id="2uU-4b-gtP"/>
+                                            <constraint firstAttribute="height" constant="30" id="8HS-br-lUn"/>
+                                            <constraint firstAttribute="width" constant="30" id="l8H-yA-TJD"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="NoU-vi-hgh"/>
+                                    <constraint firstItem="5Kz-ch-dxR" firstAttribute="leading" secondItem="ons-Kh-QcP" secondAttribute="leading" constant="16" id="Yx5-ex-97B"/>
+                                    <constraint firstItem="WvF-go-ntc" firstAttribute="leading" secondItem="Gck-ZM-BDX" secondAttribute="trailing" constant="3" id="d1H-5H-3f3"/>
+                                    <constraint firstItem="Gck-ZM-BDX" firstAttribute="leading" secondItem="KPy-8a-iq4" secondAttribute="trailing" constant="162" id="lwm-6q-ISk"/>
+                                    <constraint firstItem="VEQ-Xg-ZAk" firstAttribute="leading" secondItem="WvF-go-ntc" secondAttribute="trailing" constant="3" id="lzi-3J-cZD"/>
+                                    <constraint firstItem="KPy-8a-iq4" firstAttribute="leading" secondItem="5Kz-ch-dxR" secondAttribute="trailing" id="pK5-Ej-OBk"/>
+                                    <constraint firstItem="KPy-8a-iq4" firstAttribute="top" secondItem="ons-Kh-QcP" secondAttribute="top" constant="25" id="qn4-2i-qNC"/>
+                                    <constraint firstItem="5Kz-ch-dxR" firstAttribute="top" secondItem="ons-Kh-QcP" secondAttribute="top" constant="16" id="saB-VH-qET"/>
+                                    <constraint firstItem="Gck-ZM-BDX" firstAttribute="top" secondItem="ons-Kh-QcP" secondAttribute="top" constant="16" id="tUv-06-UYZ"/>
+                                    <constraint firstItem="VEQ-Xg-ZAk" firstAttribute="top" secondItem="ons-Kh-QcP" secondAttribute="top" constant="14" id="uXJ-Qh-jHR"/>
+                                    <constraint firstItem="WvF-go-ntc" firstAttribute="top" secondItem="ons-Kh-QcP" secondAttribute="top" constant="16" id="utK-vp-ukb"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="zWp-sd-EtC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6BW-Zy-0Vq"/>
                             <constraint firstItem="zWp-sd-EtC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Bds-Uv-TrL"/>
-                            <constraint firstItem="QbU-gA-xk7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BgY-Un-j4Y"/>
                             <constraint firstItem="zWp-sd-EtC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="D1T-kG-Ndf"/>
-                            <constraint firstItem="QbU-gA-xk7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="Oz7-XR-b6H"/>
-                            <constraint firstItem="zWp-sd-EtC" firstAttribute="top" secondItem="QbU-gA-xk7" secondAttribute="bottom" id="Tll-fO-bav"/>
-                            <constraint firstItem="QbU-gA-xk7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fUW-D9-UJd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ons-Kh-QcP" secondAttribute="trailing" id="fdV-bE-P7g"/>
+                            <constraint firstItem="zWp-sd-EtC" firstAttribute="top" secondItem="ons-Kh-QcP" secondAttribute="bottom" id="g6N-ht-NTv"/>
+                            <constraint firstItem="ons-Kh-QcP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gsN-7P-eyd"/>
+                            <constraint firstItem="ons-Kh-QcP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="yTo-n9-xTx"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="홈" image="homeIcon" selectedImage="homeIconFill" id="luZ-2A-5h2"/>
@@ -92,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1426" y="1048"/>
+            <point key="canvasLocation" x="-1426.4000000000001" y="1047.7832512315272"/>
         </scene>
         <!--동네생활-->
         <scene sceneID="SHX-7m-gbF">
